@@ -9,3 +9,13 @@ function logar(){
         alert("Usuário ou senha incorretos");
     }
 }
+
+$(document).ready(function(){
+    
+        $('#q2').hide();
+        
+        $('#pergunta1').click( function () { $('#q1').show();$('#q2').hide(); });
+        
+        $('#pergunta2').click( function () { $('#q1').hide();$('#q2').show(); });
+    
+});
